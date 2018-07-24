@@ -1,32 +1,33 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-export const Contact = () => (
+const Contact = () => (
     <div>
         <nav className="navbar navbar-default">
-            <a className="navbar-brand" href="#">BUGECE</a>
+            <a className="navbar-brand" href="">BUGECE</a>
             <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-                <a className="nav-link" href="aboutUs.html">HAKKIMIZDA</a>
+                <Link style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons"  to='/'>HAKKIMIZDA</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="whyBugeceManager.html">NEDEN BU GECE?</a>
+                <Link to='/info' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >NEDEN BU GECE?</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="report.html">RAPORLAMA</a>
+                <Link to='/report' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >RAPORLAMA</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="contact.html">BİZE ULAŞIN</a>
+                <Link to='/contact' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >BİZE ULAŞIN</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="partners.html">PARTNERLERİMİZ</a>
+                <Link to='/partners' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >PARTNERLERİMİZ</Link>
             </li>
-            <li className="btn btn-primary">BİRLİKTE ÇALIŞALIM</li>
+            <li className="btn btn-primary" style={{background:'#67afe0', borderColor: '#67afe0'}}>BİRLİKTE ÇALIŞALIM</li>
             <li className="btn btn-warning">GİRİŞ YAP</li>
             </ul>
         </nav>
         <div className="container-fluid">
             <div className="row">
-            <div className="col-sm-12">
+            <div className="col-md-12">
                 <h1 className="display-3 why-title">SİSTEMDE YERİNİZİ ALIN!</h1>
                 <p className="why-title-explain" style={{margin: '2% 0px'}}>
                 Etkinliklerinizi hemen satmaya başlamak için formumuzu doldurun, size en kısa zamanda ulaşalım.
@@ -40,27 +41,29 @@ export const Contact = () => (
             </div>
             <div className="row contact-content" style={{marginTop: '3%'}}>
             <div className="contact-left-content">
-                <div className="col-sm-5">
+                <div className="col-md-5">
                 <div className="row contact-content">
-                    <div className="col-sm-12"><h1>BİZE ULAŞIN</h1></div>
-                </div>
-                <div className="row contact-content">
-                    <div className="col-sm-12"><p>Daha fazla beklemeyin:<br />bizimle iletişime geçin!</p></div>
+                    <div className="col-md-12"><h1>BİZE ULAŞIN</h1></div>
                 </div>
                 <div className="row contact-content">
-                    <div className="col-sm-2"><img className="content-icon" src="img/doge.png" /></div>
-                    <div className="col-sm-10">destek@bugece.co</div>
+                    <div className="col-md-12"><p>Daha fazla beklemeyin:<br />bizimle iletişime geçin!</p></div>
                 </div>
                 <div className="row contact-content">
-                    <div className="col-sm-2"><img class="contact-content-icon" src="img/doge.png" /></div>
-                    <div className="col-sm-10">Huzur Mah. Beyazıt Cad. No:15<br />Sarıyer/İstanbul 34396 Türkiye</div>
+                    <div className="col-md-2"><img alt="" className="content-icon" src={require('../img/Doge.png')} /></div>
+                    <div className="col-md-10">destek@bugece.co</div>
+                </div>
+                <div className="row contact-content">
+                    <div className="col-md-2"><img alt="" className="contact-content-icon" src={require('../img/Doge.png')}/></div>
+                    <div className="col-md-10">Huzur Mah. Beyazıt Cad. No:15<br />Sarıyer/İstanbul 34396 Türkiye</div>
                 </div>
                 </div>
-                <div className="col-sm-7 contact-right-content">
-                <img className="contact-content-img" src="img/iphoneOnHand.png"/>
+                <div className="col-md-7 contact-right-content">
+                <img className="contact-content-img" alt="" src={require('../img/iphoneOnHand.png')}/>
                 </div>
             </div>
             </div>
         </div>
     </div>
 );
+
+export default Contact;

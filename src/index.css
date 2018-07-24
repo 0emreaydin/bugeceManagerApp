@@ -1,7 +1,28 @@
-cbody{
+body{
   background: white;
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+.nav-item{
+  line-height: 0.5;
+}
+
+.nav-link-buttons{
+  color: black;
+  margin: 0px 10px 0px 10px;
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+}
+
+.nav-link-buttons:hover{
+  text-decoration: none;
+  color: #67afe0;
+}
+
+a:-webkit-any-link{
+  text-decoration: none;
 }
 
 .navbar-nav {
@@ -142,8 +163,8 @@ cbody{
   margin-top:3%;
 }
 
-.col-sm-4,
-.col-sm-6{
+.col-md-4,
+.col-md-6{
   display: table;
   margin: 0 auto;
 }
@@ -169,7 +190,7 @@ cbody{
   height: 23vw;
   display: inline-block;
 }
-.col-sm-2 img{
+.col-md-2 img{
   position: relative;
   float: right;
   width: 32px;
@@ -185,7 +206,6 @@ cbody{
   height: 2px;
   width: 100%;
   background: #67afe0;
-  margin: .5% 0px;
 }
 
 .contact-content{
@@ -208,4 +228,55 @@ cbody{
 }
 .list-unstyled li a{
   color: white;
+}
+
+.about-page{
+  margin-bottom: 0%;
+}
+
+.about-text{
+  color: white;
+  text-align: center;
+  padding-left: 40%;
+  padding-right: 10%;
+  padding-top: 10%;
+  font-size: 14px;
+}
+
+.about-img{
+  margin: 0 auto;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.about-img img{
+   width: 17vw;
+   height: auto;
+   display: inline-block;
+   margin-top: 10%;
+   margin-right: 20%;
+}
+
+.about-page-nav{
+  background: linear-gradient(to right, #67afe0 , #253c55);
+}
+
+.about-page-nav .navbar-brand {
+    color: white;
+}
+.about-page-nav .navbar-brand:hover,
+.about-page-nav .navbar-brand:focus {
+    color: black;
+}
+.about-page-nav .navbar-nav > li > a {
+    color: white;
+    margin: 0px 10px 0px 10px;
+}
+
+#about-line{
+  background: #2771ba;
+  padding-top: 13px;
+}
+.about-background{
+  background: linear-gradient(to right, #67afe0 , #253c55);
 }

@@ -1,40 +1,41 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-export const Partners = () => (
+const Partners = () => (
     <div>
         <nav className="navbar navbar-default">
-            <a className="navbar-brand" href="#">BUGECE</a>
+            <a className="navbar-brand" href="">BUGECE</a>
             <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-                <a className="nav-link" href="aboutUs.html">HAKKIMIZDA</a>
+                <Link style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons"  to='/'>HAKKIMIZDA</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="whyBugeceManager.html">NEDEN BU GECE?</a>
+                <Link to='/info' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >NEDEN BU GECE?</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="report.html">RAPORLAMA</a>
+                <Link to='/report' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >RAPORLAMA</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="contact.html">BİZE ULAŞIN</a>
+                <Link to='/contact' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >BİZE ULAŞIN</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="partners.html">PARTNERLERİMİZ</a>
+                <Link to='/partners' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >PARTNERLERİMİZ</Link>
             </li>
-            <li className="btn btn-primary">BİRLİKTE ÇALIŞALIM</li>
+            <li className="btn btn-primary" style={{background:'#67afe0', borderColor: '#67afe0'}}>BİRLİKTE ÇALIŞALIM</li>
             <li className="btn btn-warning">GİRİŞ YAP</li>
             </ul>
         </nav>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-sm-12">
+                <div className="col-md-12">
                     <h1 className="display-3 why-title">PARTNERLERİMİZ</h1>
                 </div>
             </div>
             <div className="row">
-                <div className="col-sm-3"><img src="img/doge.png" style={{width:'50px', height:'50px'}}/></div>
-                <div className="col-sm-3"><img src="img/doge.png" style={{width:'50px', height:'50px'}} /></div>
-                <div className="col-sm-3"><img src="img/doge.png"  style={{width:'50px', height:'50px'}}/></div>
-                <div className="col-sm-3"><img src="img/doge.png" style={{width:'50px', height:'50px'}}/></div>
+                <div className="col-md-3"><img src={require('../img/Doge.png')} alt="" style={{width:'50px', height:'50px'}}/></div>
+                <div className="col-md-3"><img src={require('../img/Doge.png')} alt="" style={{width:'50px', height:'50px'}}/></div>
+                <div className="col-md-3"><img src={require('../img/Doge.png')} alt="" style={{width:'50px', height:'50px'}}/></div>
+                <div className="col-md-3"><img src={require('../img/Doge.png')} alt="" style={{width:'50px', height:'50px'}}/></div>
             </div>
         </div>
         <footer className="page-footer font-small indigo">
@@ -100,3 +101,5 @@ export const Partners = () => (
         </footer>
     </div>
 );
+
+export default Partners;
