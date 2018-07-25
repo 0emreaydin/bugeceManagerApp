@@ -22,7 +22,7 @@ const Contact = () => (
                 <Link to='/partners' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >PARTNERLERİMİZ</Link>
             </li>
             <li className="btn btn-primary" style={{background:'#67afe0', borderColor: '#67afe0'}}>BİRLİKTE ÇALIŞALIM</li>
-            <li className="btn btn-warning">GİRİŞ YAP</li>
+            <li className="btn btn-warning" style={{color: '#fff', backgroundColor:'#f0c713'}}>GİRİŞ YAP</li>
             </ul>
         </nav>
         <div className="container-fluid">
@@ -49,11 +49,11 @@ const Contact = () => (
                     <div className="col-md-12"><p>Daha fazla beklemeyin:<br />bizimle iletişime geçin!</p></div>
                 </div>
                 <div className="row contact-content">
-                    <div className="col-md-2"><img alt="" className="content-icon" src={require('../img/Doge.png')} /></div>
+                    <div className="col-md-2 contact-icon"><img alt="" className="content-icon" src={require('../img/Doge.png')} /></div>
                     <div className="col-md-10">destek@bugece.co</div>
                 </div>
                 <div className="row contact-content">
-                    <div className="col-md-2"><img alt="" className="contact-content-icon" src={require('../img/Doge.png')}/></div>
+                    <div className="col-md-2 contact-icon"><img alt="" className="contact-content-icon" src={require('../img/Doge.png')}/></div>
                     <div className="col-md-10">Huzur Mah. Beyazıt Cad. No:15<br />Sarıyer/İstanbul 34396 Türkiye</div>
                 </div>
                 </div>

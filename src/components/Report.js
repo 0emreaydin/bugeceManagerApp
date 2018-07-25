@@ -22,7 +22,7 @@ const Report = () => (
                 <Link to='/partners' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >PARTNERLERİMİZ</Link>
             </li>
             <li className="btn btn-primary" style={{background:'#67afe0', borderColor: '#67afe0'}}>BİRLİKTE ÇALIŞALIM</li>
-            <li className="btn btn-warning">GİRİŞ YAP</li>
+            <li className="btn btn-warning" style={{color: '#fff', backgroundColor:'#f0c713'}}>GİRİŞ YAP</li>
             </ul>
         </nav>
         <div className="container-fluid">
@@ -35,8 +35,9 @@ const Report = () => (
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-4 report-content">
-                    <img alt="" src={require('../img/iphone.png')} align="right"/>
+                <div className="col-md-2"></div>
+                <div className="col-md-2 report-content">
+                    <img alt="" src={require('../img/iphone.png')}/>
                 </div>
                 <div className="col-md-4">
                     <div className="row">
@@ -64,9 +65,10 @@ const Report = () => (
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 report-content">
-                    <img alt="" src={require('../img/iphone.png')} align="left" />
+                <div className="col-md-2 report-content">
+                    <img alt="" src={require('../img/iphone.png')}/>
                 </div>
+                <div className="col-md-2"></div>
             </div>
         </div>
     </div>

@@ -32,7 +32,7 @@ class AboutUs extends React.Component{
                         <Link to='/partners' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >PARTNERLERİMİZ</Link>
                     </li>
                     <li className="btn btn-primary" style={{background:'#67afe0', borderColor: '#67afe0'}}>BİRLİKTE ÇALIŞALIM</li>
-                    <li className="btn btn-warning">GİRİŞ YAP</li>
+                    <li className="btn btn-warning" style={{color: '#fff', backgroundColor:'#f0c713'}}>GİRİŞ YAP</li>
                     </ul>
                 </nav>
                 <div id="about-line"></div>

@@ -22,7 +22,7 @@ const Partners = () => (
                 <Link to='/partners' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >PARTNERLERİMİZ</Link>
             </li>
             <li className="btn btn-primary" style={{background:'#67afe0', borderColor: '#67afe0'}}>BİRLİKTE ÇALIŞALIM</li>
-            <li className="btn btn-warning">GİRİŞ YAP</li>
+            <li className="btn btn-warning" style={{color: '#fff', backgroundColor:'#f0c713'}}>GİRİŞ YAP</li>
             </ul>
         </nav>
         <div className="container-fluid">
@@ -32,11 +32,40 @@ const Partners = () => (
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-3"><img src={require('../img/Doge.png')} alt="" style={{width:'50px', height:'50px'}}/></div>
-                <div className="col-md-3"><img src={require('../img/Doge.png')} alt="" style={{width:'50px', height:'50px'}}/></div>
-                <div className="col-md-3"><img src={require('../img/Doge.png')} alt="" style={{width:'50px', height:'50px'}}/></div>
-                <div className="col-md-3"><img src={require('../img/Doge.png')} alt="" style={{width:'50px', height:'50px'}}/></div>
+                <div className="col-md-2"></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2"></div>
             </div>
+            <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2"></div>
+            </div>
+            <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2"></div>
+            </div>
+            <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2 partner-imgs"><img src={require('../img/Doge.png')} alt="" /></div>
+                <div className="col-md-2"></div>
+            </div>
+            <div className="col-md-12">
+                    <h1 className="partner-end">VE DAHA FAZLASI...</h1>
+                </div>
         </div>
         <footer className="page-footer font-small indigo">
             <div className="container text-center text-md-left">
