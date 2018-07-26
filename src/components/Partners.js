@@ -1,30 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ContactForm from './ContactForm';
 
 const Partners = () => (
     <div>
-        <nav className="navbar navbar-default">
-            <a className="navbar-brand" href="">BUGECE</a>
-            <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-                <Link style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons"  to='/'>HAKKIMIZDA</Link>
-            </li>
-            <li className="nav-item">
-                <Link to='/info' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >NEDEN BU GECE?</Link>
-            </li>
-            <li className="nav-item">
-                <Link to='/report' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >RAPORLAMA</Link>
-            </li>
-            <li className="nav-item">
-                <Link to='/contact' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >BİZE ULAŞIN</Link>
-            </li>
-            <li className="nav-item">
-                <Link to='/partners' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >PARTNERLERİMİZ</Link>
-            </li>
-            <li className="btn btn-primary" style={{background:'#67afe0', borderColor: '#67afe0'}}>BİRLİKTE ÇALIŞALIM</li>
-            <li className="btn btn-warning" style={{color: '#fff', backgroundColor:'#f0c713'}}>GİRİŞ YAP</li>
-            </ul>
-        </nav>
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-12">
@@ -64,8 +42,11 @@ const Partners = () => (
                 <div className="col-md-2"></div>
             </div>
             <div className="col-md-12">
-                    <h1 className="partner-end">VE DAHA FAZLASI...</h1>
-                </div>
+                <h1 className="partner-end">VE DAHA FAZLASI...</h1>
+            </div>
+            <div className="modal fade" id="myModal" role="dialog">
+                <ContactForm/>
+            </div>
         </div>
         <footer className="page-footer font-small indigo">
             <div className="container text-center text-md-left">
@@ -125,7 +106,7 @@ const Partners = () => (
                 </div>
             </div>
             <div className="footer-copyright text-center py-3">© 2018 Copyright:
-                <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+                <a href="https://bugece.co">BUGECE.co</a>
             </div>
         </footer>
     </div>

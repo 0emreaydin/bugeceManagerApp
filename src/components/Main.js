@@ -1,29 +1,30 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import React from 'react';
 import AboutUs from './AboutUs';
 import WhyBugece from './WhyBugece';
 import Report from './Report';
-import Partners from './Partners';
 import Contact from './Contact';
+import Partners from './Partners';
 
-class Main extends Component {
-  render() {
-    return (
-      <div>
-          <main>
-              <Router>
-                <div>
-                  <Route exact path='/' component={AboutUs}/>
-                  <Route path='/info' component={WhyBugece}/>
-                  <Route path='/report' component={Report}/>
-                  <Route path='/partners' component={Partners}/>
-                  <Route path='/contact' component={Contact}/>
-                  </div>
-              </Router>
-          </main>
-      </div>
-    );
-  }
-}
-
-export default Main;
+export const Main = () => (
+    <div>
+        <div id="section1" className="container-fluid">
+            <AboutUs/>
+        </div>
+        <div id="line"></div>
+        <div id="section2" className="container-fluid">
+            <WhyBugece/>
+        </div>
+        <div id="line"></div>
+        <div id="section3" className="container-fluid">
+            <Report/>
+        </div>
+        <div id="line"></div>
+        <div id="section4" className="container-fluid">
+            <Contact/>
+        </div>
+        <div id="line"></div>
+        <div id="section5" className="container-fluid">
+            <Partners/>
+        </div>
+    </div>
+);

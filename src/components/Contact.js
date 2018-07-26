@@ -1,30 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ContactForm from './ContactForm';
 
 const Contact = () => (
     <div>
-        <nav className="navbar navbar-default">
-            <a className="navbar-brand" href="">BUGECE</a>
-            <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-                <Link style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons"  to='/'>HAKKIMIZDA</Link>
-            </li>
-            <li className="nav-item">
-                <Link to='/info' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >NEDEN BU GECE?</Link>
-            </li>
-            <li className="nav-item">
-                <Link to='/report' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >RAPORLAMA</Link>
-            </li>
-            <li className="nav-item">
-                <Link to='/contact' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >BİZE ULAŞIN</Link>
-            </li>
-            <li className="nav-item">
-                <Link to='/partners' style={{transform:'translateY(30%)'}} className="nav-link nav-link-buttons" >PARTNERLERİMİZ</Link>
-            </li>
-            <li className="btn btn-primary" style={{background:'#67afe0', borderColor: '#67afe0'}}>BİRLİKTE ÇALIŞALIM</li>
-            <li className="btn btn-warning" style={{color: '#fff', backgroundColor:'#f0c713'}}>GİRİŞ YAP</li>
-            </ul>
-        </nav>
         <div className="container-fluid">
             <div className="row">
             <div className="col-md-12">
@@ -33,34 +11,39 @@ const Contact = () => (
                 Etkinliklerinizi hemen satmaya başlamak için formumuzu doldurun, size en kısa zamanda ulaşalım.
                 </p>
                 <div className="wrapper">
-                <button type="button" className="btn btn-primary btn-lg">MANAGER/ETKİNLİK BİLGİ FORMU</button>
+                <button type="button" style={{background:'#67afe0', borderColor: '#67afe0'}} className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">MANAGER/ETKİNLİK BİLGİ FORMU</button>
                 </div>
+                <div id="line"></div>
             </div>
-            <div id="line"></div>
+            
+            
 
             </div>
             <div className="row contact-content" style={{marginTop: '3%'}}>
-            <div className="contact-left-content">
-                <div className="col-md-5">
-                <div className="row contact-content">
-                    <div className="col-md-12"><h1>BİZE ULAŞIN</h1></div>
-                </div>
-                <div className="row contact-content">
-                    <div className="col-md-12"><p>Daha fazla beklemeyin:<br />bizimle iletişime geçin!</p></div>
-                </div>
-                <div className="row contact-content">
-                    <div className="col-md-2 contact-icon"><img alt="" className="content-icon" src={require('../img/Doge.png')} /></div>
-                    <div className="col-md-10">destek@bugece.co</div>
-                </div>
-                <div className="row contact-content">
-                    <div className="col-md-2 contact-icon"><img alt="" className="contact-content-icon" src={require('../img/Doge.png')}/></div>
-                    <div className="col-md-10">Huzur Mah. Beyazıt Cad. No:15<br />Sarıyer/İstanbul 34396 Türkiye</div>
-                </div>
-                </div>
-                <div className="col-md-7 contact-right-content">
-                <img className="contact-content-img" alt="" src={require('../img/iphoneOnHand.png')}/>
+                <div className="contact-left-content">
+                    <div className="col-md-5">
+                        <div className="row contact-content">
+                            <div className="col-md-12"><h1>BİZE ULAŞIN</h1></div>
+                        </div>
+                        <div className="row contact-content">
+                            <div className="col-md-12"><p>Daha fazla beklemeyin:<br />bizimle iletişime geçin!</p></div>
+                        </div>
+                        <div className="row contact-content">
+                            <div className="col-md-2 contact-icon"><img alt="" className="content-icon" src={require('../img/Doge.png')} /></div>
+                            <div className="col-md-10">destek@bugece.co</div>
+                        </div>
+                        <div className="row contact-content">
+                            <div className="col-md-2 contact-icon"><img alt="" className="contact-content-icon" src={require('../img/Doge.png')}/></div>
+                            <div className="col-md-10">Huzur Mah. Beyazıt Cad. No:15<br />Sarıyer/İstanbul 34396 Türkiye</div>
+                        </div>
+                    </div>
+                    <div className="col-md-7 contact-right-content">
+                        <img className="contact-content-img" alt="" src={require('../img/iphoneOnHand.png')}/>
+                    </div>
                 </div>
             </div>
+            <div className="modal fade" id="myModal" role="dialog">
+                <ContactForm />
             </div>
         </div>
     </div>
