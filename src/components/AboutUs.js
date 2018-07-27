@@ -27,7 +27,7 @@ class AboutUs extends React.Component{
                         </div>
                     </div>
                     <div className="col-md-6 about-img">
-                        <img alt="" className="img-fluid" src={require('../img/iphone.png')}/>
+                        <img alt="" className="img-fluid" src={require('../img/hakkimizda.png')}/>
                     </div>
                     </div>
                     <div className="modal fade" id="myModal" role="dialog">

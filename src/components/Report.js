@@ -15,7 +15,7 @@ const Report = () => (
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-2 report-content">
-                    <img alt="" src={require('../img/iphone.png')}/>
+                    <img alt="" src={require('../img/raporlama.png')}/>
                 </div>
                 <div className="col-md-4">
                     <div className="row">
@@ -44,7 +44,7 @@ const Report = () => (
                     </div>
                 </div>
                 <div className="col-md-2 report-content">
-                    <img alt="" src={require('../img/iphone.png')}/>
+                    <img alt="" src={require('../img/raporlama2.png')}/>
                 </div>
                 <div className="col-md-2"></div>
             </div>

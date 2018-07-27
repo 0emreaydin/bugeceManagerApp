@@ -17,7 +17,7 @@ const WhyBugece = () => (
                     <div className="col-md-4">
                         <div className="node">
                             <div className="node-icon">
-                                <img alt="" src={require('../img/Doge.png')} />
+                                <img alt="" src={require('../img/qr.png')} />
                             </div>
                             <div className=" node-title">
                                 QR KOD TARAMASI
@@ -30,7 +30,7 @@ const WhyBugece = () => (
                     <div className="col-md-4">
                         <div className="node">
                             <div className="node-icon">
-                                <img alt="" src={require('../img/Doge.png')} />
+                                <img alt="" src={require('../img/davetli.png')} />
                             </div>
                             <div className="node-title">
                                 DAVETLİ LİSTESİ YÖNETİMİ
@@ -43,7 +43,7 @@ const WhyBugece = () => (
                     <div className="col-md-4">
                         <div className="node">
                             <div className="node-icon">
-                                <img alt="" src={require('../img/Doge.png')} />
+                                <img alt="" src={require('../img/istatistik.png')} />
                             </div>
                             <div className="node-title">
                                 İSTATİKSEL RAPORLAMA
@@ -60,7 +60,7 @@ const WhyBugece = () => (
                 <div className="col-md-4">
                     <div className="node">
                         <div className="node-icon">
-                            <img alt="" src={require('../img/Doge.png')} />
+                            <img alt="" src={require('../img/bilet.png')} />
                         </div>
                         <div className="node-title">
                             ANINDA ERİŞİM
@@ -73,7 +73,7 @@ const WhyBugece = () => (
                 <div className="col-md-4">
                     <div className="node">
                         <div className="node-icon">
-                            <img alt="" src={require('../img/Doge.png')} />
+                            <img alt="" src={require('../img/ekip.png')} />
                         </div>
                         <div className="node-title">
                             EKİP YÖNETİMİ

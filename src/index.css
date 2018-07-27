@@ -23,8 +23,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0rem 1rem;
-  background: white;
-  border-color: #E7E7E7;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -49,11 +47,23 @@ body {
 }
 
 #section1 {
-  padding-top:52px;
+  padding-top:50px;
   height:100vh;
   color: #000; 
   background-color: linear-gradient(to right, #67afe0 , #253c55);
   position: relative;
+}
+.about-nav-color{
+  background: linear-gradient(to right, #67afe0 , #253c55) !important;
+}
+.nav-color{
+  background: white !important;
+}
+.about-nav-color a {
+  color: white !important;
+}
+.nav-color a {
+  color: black !important;
 }
 
 #section2 {
@@ -90,12 +100,15 @@ body {
   #section2{min-height: 1250px; padding-top: 50px;}
   #section3{min-height: 1700px;}
   #section4{min-height: 757px;}
-  .navbar-inverse { background-color: #343a40; border-color: black; }
+  .navbar-inverse { background-color: #67afe0; border-color: black; }
   .navbar-inverse .navbar-brand{ color:white;}
   .navbar-inverse .navbar-nav>li>a { color:white; }
   .nav{position: relative; right: 50%; transform: translateX(45%);}
   .container-fluid .about-page{height: 100%;}
+  .navbar-nav .contact-button {background:#67afe0; border-color: #000;}
 }
+
+.contact-button {background:#67afe0; border-color: #67afe0;}
 
 .why-title{
   margin-top: 2%;
@@ -225,7 +238,7 @@ body {
 
 .about-page{
   margin-bottom: 0%;
-  height: 91.5vh;
+  height: 91.8vh;
 }
 .row{
   margin-left: 0;
@@ -271,8 +284,8 @@ body {
 }
 
 #about-line{
-  background: #2771ba;
-  padding-top: 13px;
+  background: linear-gradient(to right, #2976c3 , #050e1c);
+  padding-top: 10px;
 }
 .about-background{
   background: linear-gradient(to right, #67afe0 , #253c55);

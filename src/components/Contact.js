@@ -29,16 +29,16 @@ const Contact = () => (
                             <div className="col-md-12"><p>Daha fazla beklemeyin:<br />bizimle iletişime geçin!</p></div>
                         </div>
                         <div className="row contact-content">
-                            <div className="col-md-2 contact-icon"><img alt="" className="content-icon" src={require('../img/Doge.png')} /></div>
+                            <div className="col-md-2 contact-icon"><img alt="" className="content-icon" src={require('../img/mail.png')} /></div>
                             <div className="col-md-10">destek@bugece.co</div>
                         </div>
                         <div className="row contact-content">
-                            <div className="col-md-2 contact-icon"><img alt="" className="contact-content-icon" src={require('../img/Doge.png')}/></div>
+                            <div className="col-md-2 contact-icon"><img alt="" className="contact-content-icon" src={require('../img/phone.png')}/></div>
                             <div className="col-md-10">Huzur Mah. Beyazıt Cad. No:15<br />Sarıyer/İstanbul 34396 Türkiye</div>
                         </div>
                     </div>
                     <div className="col-md-7 contact-right-content">
-                        <img className="contact-content-img" alt="" src={require('../img/iphoneOnHand.png')}/>
+                        <img className="contact-content-img" alt="" src={require('../img/bizeulasin2.png')}/>
                     </div>
                 </div>
             </div>

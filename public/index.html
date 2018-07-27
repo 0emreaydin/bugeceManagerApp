@@ -24,13 +24,23 @@
               var hash = this.hash;
               $('html, body').animate({
                 scrollTop: $(hash).offset().top
-              }, 800, function(){
+              }, 400, function(){
                 window.location.hash = hash;
               });
             }
           });
-          window.setInterval(function(){
-          }, 1000);
+        });
+      </script>
+      <script>
+        $(window).scroll(function() {    
+            var scroll = $(window).scrollTop();
+
+            if (scroll <= 100) {
+                $("nav").removeClass("nav-color").addClass("about-nav-color");
+                console.log("asdas");
+            } else {
+                $("nav").removeClass("about-nav-color").addClass("nav-color");
+            }
         });
       </script>
   </body>

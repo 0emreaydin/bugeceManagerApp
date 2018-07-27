@@ -19,7 +19,7 @@ export const Header = () => (
          <li><a href="#section3">RAPORLAMA</a></li>
          <li><a href="#section4">BİZE ULAŞIN</a></li>
          <li><a href="#section5">PARTNERLERİMİZ</a></li>
-         <li className="btn btn-primary" data-toggle="modal" data-target="#myModal" style={{background:'#67afe0', borderColor: '#67afe0'}}>BİRLİKTE ÇALIŞALIM</li>
+         <li className="btn btn-primary contact-button" data-toggle="modal" data-target="#myModal">BİRLİKTE ÇALIŞALIM</li>
          <li className="btn btn-warning" onClick={() => window.location = 'http://manager.bugece.co/login'} style={{color: '#fff', backgroundColor:'#f0c713'}}>GİRİŞ YAP</li>
         </ul>
        </div>
