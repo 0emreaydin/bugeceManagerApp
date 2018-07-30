@@ -22,23 +22,28 @@ body {
 .navbar-inverse {
   align-items: center;
   justify-content: space-between;
+  background: linear-gradient(to right, #67afe0 , #253c55);
   padding: 0rem 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
   background-color: transparent;
-  color: black;
+  color: white;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  color: black;
+  color: white;
   margin: 0px 10px 0px 10px;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover{
   text-decoration: none;
   color: #67afe0;
+}
+
+.navbar-toggle{
+  background: #000;
 }
 
 .navbar-inverse .navbar-brand{
@@ -55,6 +60,19 @@ body {
 }
 .about-nav-color{
   background: linear-gradient(to right, #67afe0 , #253c55) !important;
+}
+.about-nav-logo{
+  content:url('./img/logo2.png');
+  width: auto;
+  height: 32px;
+  margin-top:-5px;
+}
+
+.nav-logo{
+  content:url('./img/logo1.png');
+  width: auto;
+  height: 32px;
+  margin-top:-5px;
 }
 .nav-color{
   background: white !important;
@@ -96,7 +114,7 @@ body {
 }
 
 @media only screen and (max-device-width: 480px) {
-  #section1 { padding-top: 52px; min-height: 1000px;} 
+  #section1 { padding-top: 50px; min-height: 1000px;} 
   #section2{min-height: 1250px; padding-top: 50px;}
   #section3{min-height: 1700px;}
   #section4{min-height: 757px;}
@@ -104,11 +122,39 @@ body {
   .navbar-inverse .navbar-brand{ color:white;}
   .navbar-inverse .navbar-nav>li>a { color:white; }
   .nav{position: relative; right: 50%; transform: translateX(45%);}
-  .container-fluid .about-page{height: 100%;}
+  .container-fluid .about-page{height: 940px;}
   .navbar-nav .contact-button {background:#67afe0; border-color: #000;}
 }
 
-.contact-button {background:#67afe0; border-color: #67afe0;}
+.store-img{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#store{
+  width: 50%;
+  min-height: 200px;
+  margin-top: 5%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-20.5%)
+}
+
+.contact-button {
+  background:#67afe0; border-color: #67afe0;
+}
+
+.modal-header{
+  background:#67afe0; border-color: #67afe0;
+  margin-right:-.5px; 
+}
+
+.custom-radio{
+  float: left;
+}
 
 .why-title{
   margin-top: 2%;
@@ -260,7 +306,7 @@ body {
 }
 
 .about-img img{
-   width: 17vw;
+   width: 300px;
    height: auto;
    display: inline-block;
    margin-top: 10%;

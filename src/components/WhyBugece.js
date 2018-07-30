@@ -6,7 +6,7 @@ const WhyBugece = () => (
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-12">
-                    <h1 className="display-3 why-title">NEDEN BU GECE</h1>
+                    <h1 className="display-3 why-title">NEDEN BUGECE</h1>
                     <p className="why-title-explain">
                     Müsterilerinizin ihtiyaçları doğrultusunda geliştirdiğimiz<br /> 2.0.0 yeni sürümü ile sorunsuz bir şekilde etkinliklerinizi 360° yönetin.
                     </p>

@@ -35,11 +35,12 @@
         $(window).scroll(function() {    
             var scroll = $(window).scrollTop();
 
-            if (scroll <= 100) {
+            if (scroll <= 700) {
                 $("nav").removeClass("nav-color").addClass("about-nav-color");
-                console.log("asdas");
+                $(".nav-logo").removeClass("nav-logo").addClass("about-nav-logo");
             } else {
                 $("nav").removeClass("about-nav-color").addClass("nav-color");
+                $(".about-nav-logo").removeClass("about-nav-logo").addClass("nav-logo");
             }
         });
       </script>

@@ -9,7 +9,7 @@ export const Header = () => (
         <span className="icon-bar"></span>
         <span className="icon-bar"></span>                        
        </button>
-       <a className="navbar-brand" href="https://bugece.co/">BUGECE</a>
+       <a className="navbar-brand" href="http://manager.bugece.co/login"><img class="about-nav-logo"/></a>
       </div>
       <div>
        <div className="collapse navbar-collapse" id="myNavbar">

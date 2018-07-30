@@ -13,13 +13,21 @@ const ContactForm = () => (
                             <div className="col-md-6">
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <div className="custom-control custom-radio">
-                                            <input type="radio" className="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios"/>
-                                            <label className="custom-control-label" htmlFor="defaultUnchecked">Mekan İşletmecisi</label>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div className="custom-control custom-radio">
+                                                    <input type="radio" className="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios"/>
+                                                    <label className="custom-control-label" htmlFor="defaultUnchecked">Mekan İşletmecisi</label>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className="custom-control custom-radio">
-                                            <input type="radio" className="custom-control-input" id="defaultChecked" name="defaultExampleRadios" checked/>
-                                            <label className="custom-control-label" htmlFor="defaultChecked">Organizatör</label>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div className="custom-control custom-radio">
+                                                    <input type="radio" className="custom-control-input" id="defaultChecked" name="defaultExampleRadios" checked/>
+                                                    <label className="custom-control-label" htmlFor="defaultChecked">Organizatör</label>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div><br /> 
@@ -140,7 +148,7 @@ const ContactForm = () => (
                         <div className="row">
                             <div className="col-md-12">
                             <br/>
-                                <div style={{position: 'absolute', transform: 'translateX(-40%)', left:'45%'}}>
+                                <div style={{position: 'absolute', transform: 'translateX(-40%)', left:'45%',marginBottom:'50px'}}>
                                     <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
                                     <label className="form-check-label" htmlFor="exampleCheck1">BUGECE Kullanım Koşullarını ve gizlilik kurallarını kabul ediyorum.</label>
                                 </div>
@@ -149,7 +157,7 @@ const ContactForm = () => (
                         </div>
                     </div>
                     <div className="modal-footer">
-                        <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" className="btn btn-default">Gönder</button>
                     </div>
                 </div>
             </div>
