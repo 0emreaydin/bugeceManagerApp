@@ -6,13 +6,13 @@ const ContactForm = () => (
                 <div className="modal-content">
                     <div className="modal-header">
                         <button type="button" className="close" data-dismiss="modal">&times;</button>
-                        <h4 className="modal-title" style={{textAlign:'center'}}></h4>
+                        <h2 className="modal-title" style={{color:'white',textAlign:'center'}}>MANAGER/ETKİNLİK BİLGİ FORMU</h2>
                     </div>
                     <div className="modal-body">
                         <div className="row">
-                            <div className="col-md-6">
+                            <div className="col-md-5">
                                 <div className="row">
-                                    <div className="col-md-6">
+                                    <div className="col-md-12">
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div className="custom-control custom-radio">
@@ -75,71 +75,72 @@ const ContactForm = () => (
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6">
-                                <h4>ETKINLIK BİLGİLERİNİZ</h4>
+                            <h4 style={{textAlign:'left'}}>ETKINLIK BİLGİLERİNİZ</h4>
+                            <div className="col-md-7">
+                                
                                 <div className="row">
-                                    <div className="col-md-5">Etkinlik Adı</div>
-                                    <div className="col-md-7">
+                                    <div className="col-md-7">Etkinlik Adı</div>
+                                    <div className="col-md-5">
                                         <input className="form-control input-sm" id="inputsm" type="text"/>
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-5">Etkinlik Tarihi</div>
-                                    <div className="col-md-7">
+                                    <div className="col-md-7">Etkinlik Tarihi</div>
+                                    <div className="col-md-5">
                                         <input className="form-control input-sm" id="inputsm" type="text"/>
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-5">Mekan Adı</div>
-                                    <div className="col-md-7">
+                                    <div className="col-md-7">Mekan Adı</div>
+                                    <div className="col-md-5">
                                         <input className="form-control input-sm" id="inputsm" type="text"/>
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-5">Adres</div>
-                                    <div className="col-md-7">
+                                    <div className="col-md-7">Adres</div>
+                                    <div className="col-md-5">
                                         <input className="form-control input-sm" id="inputsm" type="text"/>
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-5">Şehir</div>
-                                    <div className="col-md-7">
+                                    <div className="col-md-7">Şehir</div>
+                                    <div className="col-md-5">
                                         <input className="form-control input-sm" id="inputsm" type="text"/>
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-5">Mekan Kapesitesi</div>
-                                    <div className="col-md-7">
+                                    <div className="col-md-7">Mekan Kapesitesi</div>
+                                    <div className="col-md-5">
                                         <input className="form-control input-sm" id="inputsm" type="text"/>
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-5">İlk etkinlik tarihi nedir ?</div>
-                                    <div className="col-md-7">
+                                    <div className="col-md-7">İlk etkinlik tarihi nedir ?</div>
+                                    <div className="col-md-5">
                                         <input className="form-control input-sm" id="inputsm" type="text"/>
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-5">Biletlerinizi ne zaman satışa sunmayı planlıyorsunuz?</div>
-                                    <div className="col-md-7">
+                                    <div className="col-md-7">Biletlerinizi ne zaman satışa sunmayı planlıyorsunuz?</div>
+                                    <div className="col-md-5">
                                         <input className="form-control input-sm" id="inputsm" type="text"/>
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-5">Ortalama bilet hedefiniz nedir?</div>
-                                    <div className="col-md-7">
+                                    <div className="col-md-7">Ortalama bilet hedefiniz nedir?</div>
+                                    <div className="col-md-5">
                                         <input className="form-control input-sm" id="inputsm" type="text"/>
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-5">Ortalama bilet fiyatınız nedir?</div>
-                                    <div className="col-md-7">
+                                    <div className="col-md-7">Ortalama bilet fiyatınız nedir?</div>
+                                    <div className="col-md-5">
                                         <input className="form-control input-sm" id="inputsm" type="text"/>
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-5">Eklemek istediğiniz notlar</div>
-                                    <div className="col-md-7">
+                                    <div className="col-md-7">Eklemek istediğiniz notlar</div>
+                                    <div className="col-md-5">
                                         <input className="form-control input-sm" id="inputsm" type="text"/>
                                     </div>
                                 </div>
