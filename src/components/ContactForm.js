@@ -24,7 +24,7 @@ const ContactForm = () => (
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div className="custom-control custom-radio">
-                                                    <input type="radio" className="custom-control-input" id="defaultChecked" name="defaultExampleRadios" checked/>
+                                                    <input type="radio" className="custom-control-input" id="defaultChecked" name="defaultExampleRadios"/>
                                                     <label className="custom-control-label" htmlFor="defaultChecked">Organizatör</label>
                                                 </div>
                                             </div>

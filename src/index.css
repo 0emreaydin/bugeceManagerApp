@@ -148,7 +148,28 @@ body {
     -webkit-transform: translateX(-20.5%);
     -ms-transform: translateX(-20.5%);
     transform: translateX(-20.5%);
+  }
 }
+
+#footer-store{
+  width: 300px;
+  min-height: 20px;
+  margin-top: 5%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-20.5%)
+}
+
+#footer-store .col-md-5 a .store-img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#footer-store .col-md-5 {
+  min-height: 50px;
 }
 
 .store-img{
@@ -307,6 +328,7 @@ body {
 .page-footer{
   background: #67afe0;
   color:white;
+  height: 150px;
 }
 .list-unstyled li a{
   color: white;
@@ -371,6 +393,45 @@ body {
   margin: 10px;
   width: 100px;
   height: 100px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-facebook {
+  width: 70px;
+  height: 70px;
+}
+
+.fa-twitter {
+  width: 70px;
+  height: 70px;
+}
+
+.fa-instagram {
+  width: 70px;
+  height: 70px;
+}
+
+.footer-img{
+  content:url('./img/logo2.png');
+  width: auto;
+  height: 32px;
+  margin-top: 25px;
 }
 
 
