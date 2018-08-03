@@ -148,12 +148,13 @@ body {
     transform: translateX(-20.5%);
   }
   .container-fluid #footer-store .col-md-5 a .store-img {
-    width: 50%;
+    width: 80%;
     position: absolute;
     left: 21.5%;
     transform: translate(-50%, -50%);
   }
   .page-footer{height: 310px !important;}  
+  .container-fluid #footer-store{width: 200px;}
 }
 
 #footer-store{
