@@ -122,38 +122,50 @@ body {
 #section5 {
   padding-top:80px;
   height:100vh;
-  color: #fff; 
+  color: #000; 
   background-color: #fff;
 }
 
 @media only screen and (max-device-width: 480px) {
-  #section1 { padding-top: 50px; min-height: 1100px;} 
+  #section1 { padding-top: 50px; min-height: 1150px;} 
   #section2{min-height: 1250px; padding-top: 50px;}
   #section3{min-height: 1700px;}
-  #section4{min-height: 757px;}
+  #section4{min-height: 2150px;}
+  #section5{min-height: 757px;}
   .navbar-inverse { background-color: #67afe0; border-color: black; }
   .navbar-inverse .navbar-brand{ color:white;}
   .navbar-inverse .navbar-nav>li>a { color:white; }
   .nav{position: relative; right: 50%; transform: translateX(45%);}
-  .container-fluid .about-page{height: 1040px;}
+  .about-page{height: 1090px !important;}
   .navbar-nav .contact-button {background:#67afe0; border-color: #000;}
   #store .row{ height: 100px; margin-top:-15%;}
   #store .col-md-5{ height: 70px; }
   #store.row {
-    width: 70%;
+    width: 60%;
     min-height: 20px;
-    margin-top: 5%;
+    margin-top: 2%;
     position: absolute;
-    left: 30%;
+    left: 32%;
     transform: translateX(-20.5%);
   }
+
+  #footer-store {
+    width: 200px !important;
+  }
+
+  #footer-store .col-md-5{
+    width: 150px;
+    margin-left: -17%;
+  }
+
+  .col-md-5{margin-bottom: -10px;}
   .container-fluid #footer-store .col-md-5 a .store-img {
     width: 80%;
     position: absolute;
     left: 21.5%;
     transform: translate(-50%, -50%);
   }
-  .page-footer{height: 310px !important;}  
+  .page-footer{height: 320px !important;}  
   .container-fluid #footer-store{width: 200px;}
 }
 
@@ -287,7 +299,7 @@ body {
 .contact-right-content img{
   position: absolute;
   top: 0;
-  transform: translateY(-54%);
+  transform: translateY(-55.5%);
   right:-80%;
   width: auto;
   height: 23vw;
@@ -436,7 +448,7 @@ body {
 .footer-img{
   content:url('./img/logo2.png');
   width: auto;
-  height: 32px;
+  width: 100px;
   margin-top: 25px;
 }
 
@@ -450,8 +462,8 @@ body {
   .contact-content .col-md-2 { width: 20%;}
   .contact-content .col-md-10 { width: 80%;}
   .wrapper .btn{width: 80%; font-size: 90%; margin: 10px;}
-  .contact-right-content img{ position: absolute; bottom: 0px; left: 50%; transform: translateX(-50%); width: auto; height: 150px; display: inline-block;}
+  .contact-right-content img{ position: absolute; bottom: 0px; left: 50%; transform: translate(-50%,6.5%); width: auto; height: 150px; display: inline-block;}
   .about-text{padding-left: 5%; padding-right: 5%; margin-bottom: 175px;}
-  .about-img img{margin-top: 0px; margin-right: 0px; margin-bottom: 20px; width: 200px;}
+  .about-img img{margin-top: -30px; margin-right: 0px; margin-bottom: 20px; width: 250px;}
 
 }

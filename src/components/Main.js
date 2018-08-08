@@ -4,6 +4,7 @@ import WhyBugece from './WhyBugece';
 import Report from './Report';
 import Contact from './Contact';
 import Partners from './Partners';
+import Footer from './Footer';
 
 export const Main = () => (
     <div>
@@ -20,11 +21,12 @@ export const Main = () => (
         </div>
         <div id="line"></div>
         <div id="section4" className="container-fluid">
-            <Contact/>
+            <Partners/>
         </div>
         <div id="line"></div>
         <div id="section5" className="container-fluid">
-            <Partners/>
+            <Contact/>
         </div>
+        <Footer/>
     </div>
 );

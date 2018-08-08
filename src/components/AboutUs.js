@@ -21,7 +21,7 @@ class AboutUs extends React.Component{
                                         <a href="https://play.google.com/store/apps/details?id=com.app.bugece&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Google Play'den indirin" className="store-img" src="https://play.google.com/intl/en_us/badges/images/generic/tr_badge_web_generic.png"/></a>
                                     </div>
                                     <div className="col-md-5">
-                                        <a href="https://itunes.apple.com/tr/app/bugece/id1161536177?l=tr&mt=8"><img alt="App Store'dan indirin" className="store-img" src={require('../img/appStore.svg')}/></a>
+                                        <a href="https://itunes.apple.com/tr/app/bugece/id1161536177?l=tr&mt=8"><img alt="App Store'dan indirin" className="store-img" src={require('../img/appStore.png')}/></a>
                                     </div>
                                     <div className="col-md-1"></div>
                                 </div>
