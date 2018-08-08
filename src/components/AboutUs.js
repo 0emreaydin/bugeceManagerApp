@@ -6,7 +6,7 @@ class AboutUs extends React.Component{
         return(
             <div style={{height:'100%'}}>
                 <div id="about-line"></div>
-                <div className="container-fluid about-page-nav">
+                <div className="container-fluid about-page-nav" style={{height:'100%'}}>
                     <div className="row about-page">
                     <div className="col-md-6">
                         <div className="row">
