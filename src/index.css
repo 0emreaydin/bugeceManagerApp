@@ -64,13 +64,7 @@ body {
   margin: 0px 10px 0px 10px;;
 }
 
-#section1 {
-  padding-top:50px;
-  height:100vh;
-  color: #000; 
-  background-color: linear-gradient(to right, #67afe0 , #253c55);
-  position: relative;
-}
+
 .about-nav-color{
   background: linear-gradient(to right, #67afe0 , #253c55) !important;
 }
@@ -97,16 +91,24 @@ body {
   color: black !important;
 }
 
+#section1 {
+  padding-top:50px;
+  height:720px;
+  color: #000; 
+  background-color: linear-gradient(to right, #67afe0 , #253c55);
+  position: relative;
+}
+
 #section2 {
   padding-top:80px;
-  height:100vh;
+  height:720px;
   color: #000; 
   background-color: #fff;
 }
 
 #section3 {
   padding-top:80px;
-  height:100vh;
+  height:720px;
   color: #000; 
   background-color: #fff;
   position: relative;
@@ -114,14 +116,14 @@ body {
 
 #section4 {
   padding-top:80px;
-  height:100vh;
+  height:720px;
   color: #000; 
   background-color: #fff;
 }
 
 #section5 {
   padding-top:80px;
-  height:100vh;
+  height:720px;
   color: #000; 
   background-color: #fff;
 }
@@ -170,7 +172,7 @@ body {
 }
 
 #footer-store{
-  width: 300px;
+  width: 200px;
   min-height: 20px;
   margin-top: 5%;
   position: absolute;
@@ -298,11 +300,11 @@ body {
 
 .contact-right-content img{
   position: absolute;
-  top: 0;
-  transform: translateY(-55.5%);
+  bottom: 0;
+  transform: translateY(64%);
   right:-80%;
   width: auto;
-  height: 23vw;
+  height: 15vw;
   display: inline-block;
 }
 .contact-icon img{
